@@ -1,0 +1,1323 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+body{
+    padding:0% 5%;
+}
+button{
+    border-radius: 4px;
+    border-width: 1px;
+}
+button:hover{
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+/* -------  Navlist start ------ */
+.navbaricon{
+    display: none;
+}
+.navbaricon button{
+    background-color: white;
+    border: none;
+}
+.heading{
+    font-size: 28px;
+    word-spacing: 0.5px;
+    letter-spacing: -1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navlist{
+    display: flex; /* flex-direction: row; */
+    justify-content: center;
+    border-bottom: 1px solid ;  
+    border-color: rgba(174, 165, 165, 0.388);  /* flex-grow: 1; */
+}
+.navlist a,.para2 a{ /*-----Para2 a------*/
+    text-decoration: none;
+    color: black;
+}
+nav{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 5%;
+}
+.logo1{
+    display: flex;
+}
+.logo1:hover{
+    cursor:pointer;
+}
+.text2{
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.list1{
+    padding:10px;
+    margin: 10px;
+}
+.li2,.li3{
+    align-self: center;
+    font-size: 18px; 
+} 
+.li1{
+    flex-grow: 2;
+    margin-left: -54px;
+}
+.li4{
+    padding: 10px 0px;
+    margin-right: -6px;
+} 
+.button1{
+    box-sizing: border-box;
+    background-color: white;
+}
+.button2{
+    background-color: black;
+    color: white;
+}
+.list1 button{
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: rgba(174, 165, 165, 0.19);
+    padding: 10px;
+    font-size: 16px;
+}
+.hov:hover{
+    color: blue;
+    padding-bottom:8px;
+    border-bottom:2px solid blue;
+}
+/*--------Navlist end----------*/
+/*--------1st image start-----------*/
+.img2{
+    float: right;
+    height: 75%;
+    width: 47%;
+    padding-bottom: 80px;
+}
+/*--------1st image end-----------*/
+/*--------Build your team start--------*/
+.para1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 8%;
+}
+.division1{
+    display: flex;
+}
+.division button{
+    box-sizing: border-box;
+    font-size:15px;
+    margin-right: 20px;
+    padding:15px 40px;
+    border:1px solid rgba(174, 165, 165, 0.19);
+}
+.team1{
+    padding-right: 15%;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    line-height: 65px;
+}
+.team2{
+    padding: 20px 0px;
+    padding-right: 37%;
+    font-size: 24px;
+    font-family: 'Calibri';
+}
+.button2:hover{
+    background-color: blue;
+}
+.button1:hover{
+    background-color: rgba(211, 206, 248, 0.441);
+    color: blue;
+    border:1px solid blue;
+}
+/*--------Build your team end--------*/
+/* ---------Email start--------- */
+.para2{
+    border: 2px solid rgba(128, 128, 128, 0.168);
+    border-radius: 5px;
+    clear: right;
+    display: grid;
+    grid-template-columns: 11fr 5fr;
+    padding: 1%;
+    font-family: 'Calibri';
+}
+.remaining{
+    display: flex;
+    align-items: center;
+}
+.para2 input{
+    margin-left: 2%;
+    width: 95%;
+    height: 88%;
+    border:1px solid rgba(128,128,128,0.168);
+    border-radius: 4px;
+}
+.para2 button{
+    border-color: rgba(174, 165, 165, 0.19);
+    font-size: 14px;
+    padding: 14px;
+}
+.di2{
+    margin-left: 2%;
+    margin-right:5%;
+}
+.di3{
+    margin-left: 3%;
+}
+.di4{
+    margin-right: 2%;
+}
+.upper{
+    display: flex;
+}
+.icon1{
+    font-size:14px;
+    margin: 2px;
+}
+.img3{
+    width: 20px;
+    height:20px;
+    padding-right: 2px;
+}
+.para2 input:hover{
+    border:1px solid rgb(0, 0, 255);
+}
+.para2 input:focus{
+    border:1px solid rgb(0, 0, 255);
+    outline:none;
+}
+.para2 ::placeholder{
+    font-size: 17px;
+}
+/* ---------Email end--------- */
+/* --------- Sentence below email start-------------- */
+.para3{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    padding-bottom: 100px;
+}
+.sent1{
+    float: left;
+}
+.sent2{
+    float: right;
+}
+.link1:visited{
+    color:gray;
+}
+.link1:hover{
+    color:blue;
+}
+.link1{
+    color: gray;
+}
+/* --------- Sentence below email end-------------- */
+/*-------Numbers Start--------*/
+.number1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.sent3{
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 40px;
+    font-family: Palatino Linotype;
+}
+.division3,.division4{
+    border-right: 1px solid rgba(128, 128, 128, 0.523) ;
+}
+.para4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Signika', sans-serif;
+}
+.para4 p{
+    border-top: 1px solid rgba(128, 128, 128, 0.523) ;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.422) ;
+    padding: 12% 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+/*-------Numbers end--------*/
+/*------------Scrolling Images start---------*/
+.para5{
+    border-bottom: 1px solid rgba(187, 183, 183, 0.492);
+}
+.line1{
+    border-top: 1px solid rgba(153, 151, 151, 0.722);
+    margin-right: -5.5%;
+    margin-left: -5.5%;
+}
+.scroll{
+    display: flex;
+    position: relative;
+    overflow-x: hidden;    
+}
+.scroll div{
+    padding: 5% 0;
+    display: flex;
+    position: relative;
+    animation: scrolling 35s linear infinite ;    /* Syntax: Name duration Timing-function iteration-count  */
+    justify-content: space-around;
+}
+.para5 img{
+    padding: 0 40px;
+    width: 12vw;
+    height: 6vh;
+}
+@keyframes scrolling{
+    0%{
+        transform: translateX(0);
+    }
+    100%{ 
+        transform: translateX(-100%);
+    }
+}
+/*------------Scrolling Images start---------*/
+/* --------Why job seekers love us start --------*/
+.para6{
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(182, 187, 187, 0.622);
+}
+.got1{
+    float: left;
+    padding-top: 1%;
+    padding-right: 7%;
+}
+.got1 img{
+    width:43vw;
+    height:85vh;
+    padding-bottom: 15%;
+}
+.got2{
+    padding:5% 0%;
+    padding-right: 10%;
+}
+.got2 h5,.need2 h5,.intro2 h5,.dream1 h5,.user3 h5,.user5 h5,.blog3 h5{
+    letter-spacing: 1px;
+}
+.got2 h1,.intro2 h1{
+    font-size: 2.5rem;
+    padding-right: 10%;
+    letter-spacing: -1px;
+    padding-bottom: 1%;
+}
+.img4{
+    padding-right: 11px;
+}
+.talent1 b,.talent4 b{
+    color: rgb(85, 80, 80);
+}
+.talent1,.talent4,.talent6{
+    display: flex;
+}
+.got3{
+    display: flex;
+    padding-top: 3%;
+}
+.talent2{
+    padding-right: 4%;
+}
+.got3 button,.need3 button,.user3 button,.user5 button,.blog3 button,.blog1 button{
+    border-color: rgba(174, 165, 165, 0.19);
+    font-size: 16px;
+    padding: 10px;
+}
+/* --------Why job seekers love us end--------- */
+/* ---------Why recruiters love us start---------- */
+.need1{
+    float:right;
+    padding-left: 5%;
+    margin-top: -2%;
+}
+.need1 img{
+    width:43vw;
+    height:85vh;
+}
+.need3{
+    display: flex;
+}
+.need2 a:visited{
+    color:black;
+}
+.need2 a:hover{
+    color: blue;
+}
+.need2{
+    padding-right:65%;
+    padding-bottom: 1%;
+}
+.need2 h1{
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    padding-right: 25%;
+    padding-bottom: 2%;
+}
+.talent5 a{
+    color: black;
+}
+.para7{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(175, 169, 169, 0.622);
+    padding: 10% 0%;
+    padding-left:5%;
+}
+.talent2 {
+    padding-right:3%;
+}
+/* need2 h5, talent4 b, talent4, need3 button top(job seekers) */
+/* ---------Why recruiters love us end---------- */
+/* ---------You tube video start---------- */
+.para8{
+    padding-top: 10%;
+    padding-bottom: 11%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(153, 151, 151, 0.622);
+}
+.intro1{
+    float:left;
+    padding-right: 7%;
+    padding-top: 5%;
+}
+.intro2{
+    padding-right: 9%;
+}
+.intro3{
+    display: flex;
+}
+.talent7{
+    padding-top:4%;
+    padding-right: 3%;
+}
+.intro1 iframe{
+    width: 43vw;
+    height: 50vh;
+    margin-bottom: 30%;
+}
+.intro3 button{
+    border-radius: 6%;
+    border-color: rgba(174, 165, 165, 0.19);
+    font-size: 15px;
+    padding: 12px;
+}
+.change{
+    margin-top:-6px ;
+}
+/*intro2 h5, intro2 h1,.talent6 top(job seekers) */
+/* ---------You tube video end---------- */
+/* -------Dreams come true start--------- */
+.dream1{
+    text-align: center;
+}
+.dream2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3%;
+}
+.user1{
+    box-sizing: border-box;
+    padding: 12% 10%;
+    padding-left: 12%;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+    border: 1px solid rgba(170, 166, 166, 0.722);
+}
+.user1 p{
+    padding-right: 6%;
+}
+.dream1 h1{
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    padding-bottom: 5%;
+}
+.para9{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom:1px solid rgba(184, 179, 179, 0.622);
+    padding: 6% 0%;
+}
+/* dream1 h5 top(job seekers) */
+/* -------Dreams come true end--------- */
+/*------Feature and salary start---------*/
+.user2{
+    padding: 13% 6%;
+    background-color: #ffede5;
+}
+.user2 img,.user4 img{
+    width:250px;
+    height:250px;
+}
+.user4{
+    padding: 13% 6%;
+    background-color: #eaebff;
+}
+.user3,.user5{
+    padding: 5%;
+}
+.para10{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgba(176, 170, 170, 0.622);
+    padding: 6% 0;
+}
+.featured,.salary{
+    border: 1px solid rgba(182, 176, 176, 0.722);
+    display: flex;
+}
+.blog3 .talent7 .button1{
+    padding: 4%;
+}
+/* User3 h5, user5 h5 , user3 button, user5 button*/
+/*------Feature and salary start---------*/
+/* -----From the blog start------ */
+.box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns:1fr ;
+    grid-template-rows: auto;
+    gap: 2%;
+}
+.para11{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 7%;
+    border-bottom: 1px solid rgba(188, 185, 185, 0.622);
+}
+.para11 img{
+    width: 28.2vw;
+    height: 38vh;
+}
+.blog1 button{
+    float: right;
+}
+.blog2{
+    border: 1px solid rgba(153, 151, 151, 0.722);
+    padding-bottom: 5%;
+}
+.blog3 .talent7{
+    padding-top: 6%;
+}
+.blog3{
+    padding:0% 10%;
+    padding-bottom: 5%;
+    word-spacing: -2px;
+}
+.blog4{
+    font-size: 33px;
+    font-weight: bolder;
+}
+.blog1 .talent7{
+    margin-right:-3%;
+}
+.blog1{
+    padding-top: 2%;
+    padding-bottom:6%;
+}
+/* blog3 h5 , blog3 button , blog5 button top(job seekers)*/
+/* -----From the blog end------ */
+/* ------Hoverable Dropdown start-------- */
+.para12{    
+    border-bottom: 1px solid rgba(191, 187, 187, 0.588);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7% 0%;
+}
+.button3{
+    background-color: white;
+    border-width: 1px;
+    border-color: rgba(174, 165, 165, 0.488);
+    font-size: 16px;
+}
+.button3 i{
+    padding-left:8px;
+}
+.button3:hover{
+    color: blue;
+    background-color: rgba(211, 206, 248, 0.441);
+    border-color: blue;
+    border-radius: 5px;
+}
+.talent8{
+    padding: 1%;
+}
+.para12 button{
+    padding:10px 20px;
+}
+.drop-down{
+    font-family: 'Arial';
+    display: none;
+    font-size: 16px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid rgba(153, 151, 151, 0.722);
+}
+.drop-down a{
+    color: black;
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+}
+.talent8:hover .drop-down{
+    display: block;
+}
+.drop-down a:hover{
+    background-color: rgba(211, 206, 248, 0.439);
+    color: blue;
+}
+/* ------Hoverable Dropdown start-------- */
+/* ------Icon and list start-------- */
+.para13{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content:space-between;
+    padding-top:5% ;
+    padding-bottom:3% ;
+}
+.para13 a{
+    text-decoration: none;
+}
+.para13 a:visited{
+    color: black;
+}
+.para13 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.para13 p{
+    line-height: 16px;
+    font-size: 16px;
+}
+.para13 a{
+    color: black;
+}
+.foot2,.logo{
+    display: flex;
+}
+.cand1{
+    display: inline-block;
+}
+.cand2,.cand3,.cand4{
+    margin-right: 50px;
+}
+.for{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.80);
+}
+.logo i{
+    margin-right: 5px;
+}
+.text1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3px;
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+.icon3{
+    font-size: 25px;
+}
+.icon3 i{
+    padding-right:15px ;
+}
+.icon2{
+    font-size: 28px;
+    padding-bottom: 5%;
+}
+.foot1 a:hover{
+    color: rgba(0, 0, 255, 0.893);
+    text-decoration: none;
+}
+/* ------Icon and list start-------- */
+/* ----Last line start---- */
+.para14{
+    font-family:'Arial';
+    color: gray;
+    padding-bottom: 7%;
+}
+.para14 a{
+    color: gray;
+}
+.para14 a:visited{
+    color: gray;
+}
+.para14 a:hover{
+    color:blue;
+}
+.last1{
+    float:left;
+}
+.last2{
+    float: right;
+}
+/* ----Last line end---- */
+/* ---------Media queries 2000px to 2561px start-----------------*/
+@media screen and (min-width:2000px) and (max-width:2561px){
+    body{
+        margin: 0 15%;
+    }
+    .got1 img,.need1 img{
+        width:30vw;
+        height:35vh;
+    }
+    .intro1 iframe{
+        width: 28vw;
+        height: 25vh;
+    }
+    .blog2 img{
+        width:19.2vw;
+        height: 19vh;
+    }
+    .para5 img{
+        width: 7vw;
+        height: 2vh;
+    }
+}
+/* ---------Media queries 2000px to 2561px end-----------------*/
+/* ---------Media queries 1281px start-----------------*/
+@media screen and (max-width: 1281px) {
+    .para1{
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+    .team2{
+        padding-right: 24%;
+    }
+    .para2{
+        grid-template-columns: 8fr 5fr;
+    }
+    .dream2{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 7%;
+    }
+    .user1{
+        padding: 8%;
+    }
+    .para9{
+        padding-bottom: 10%;
+    }
+    .para10{
+        grid-template-columns: 1fr;
+        row-gap: 4%;
+    }
+    .user2 img,.user4 img{
+        width: 300px;
+        height:300px;
+    }
+    .user2,.user4{
+        padding: 4% 13%;
+    }
+    .para11{
+        margin: 0 2%;
+    }
+    .box1{
+        grid-template-columns: 1fr 1fr;
+        gap:2%;
+        row-gap: 1%;
+    }   
+    .blog2 img{
+        box-sizing: border-box;
+        width: 42vw;
+        height: 48vh;
+    }
+    .blog1 .talent7{
+        margin-right:-5%;
+    }
+    .para12{
+        justify-content: flex-start;
+    }
+}
+/* ---------Media queries 1281px end-----------------*/
+/* ---------Media queries 991px start------------------*/
+/* min-width na starting from that pixel */
+@media screen and (max-width: 991px) {
+    body{
+        padding:0;
+    }
+    .para2{
+        grid-template-columns: 6fr 5fr;
+        margin-left: 0%;
+    }
+    .heading{
+        padding-left:6% ;
+    }
+    .navlist{
+        padding: 0 9%;
+        border-bottom: none;
+        margin-bottom: -5px;
+    }
+    .navbaricon,.para4{
+        display: block;
+    }
+    .hide1{
+        display: none;
+    }  
+    nav{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left:0;
+        z-index: 1;
+        padding-bottom: 1%;
+        border-bottom: 1px solid rgba(199, 190, 190, 0.741);
+    }
+    .img2{
+        padding: 8%;
+        padding-top:14%;
+        float: none;
+        width: 81.5%;
+        height: 94%;
+    }
+    .para1{
+        margin-top: -20px;
+        padding-left:8%;
+        padding-right:8%;
+        padding-bottom: 8%;
+    }
+    .team1{
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .team2{
+        padding-right: 0;
+        font-size: 19px;
+    }
+    .para2{
+        margin: 0 8%;
+    }
+    .para3{
+        margin:1% 8%;
+        padding-bottom: 8%;
+        border-bottom: 1px solid rgba(206, 196, 196, 0.6);
+    }
+    .para4 p{
+        border: none;
+        padding: 2% 0 ;
+    }
+    .number1{
+        font-size: 34px;
+    }
+    .sent3{
+        font-size: 20px;
+    }
+    .para5{
+        margin:0;
+        padding: 0;
+    }
+    .para6{
+        padding: 0;
+        margin: 0 8%;
+        margin-top: 0%;
+    }
+    .got2{
+        margin-top:-13%;
+        padding: 0 6%;
+        padding-bottom: 17%;
+    }
+    .got3{
+        padding-top: 5%;
+    }
+    .got2 h1{
+        font-size: 31px;
+    }
+    .talent1,.talent6,.dream2 p{
+        font-size: 15px;
+    }
+    .got1 img{
+        width:82vw;
+        height:110vh;
+        margin-bottom: -32%;
+    }
+    .need1{
+        float: none;
+        margin-top: -21%;
+    }
+    .need1 img{
+        width:82vw;
+        height:110vh;
+        margin-left:-10%;
+    }
+    .need2 img{
+        padding: 0;
+    }
+    .need2{
+        margin-top: -22%;
+        padding:0 3%;
+    }
+    .need2 h1,.intro2 h1,.dream1 h1{
+        font-size: 32px;
+    }
+    .talent4{
+        font-size: 15px;
+        padding-right: 3%;
+    }
+    .talent5{
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .para7{
+        margin: 0 8%;
+        margin-top: -3%;
+        padding-bottom:15%;
+    }
+    .need3{
+        padding-top:2%;
+    }
+    .talent2{
+        padding :0 2%;
+    }
+    .para8{
+        margin: 0 8%;
+    }
+    .intro1{
+        margin: 0;
+        margin-top: -4%;
+        padding: 0;
+        padding-bottom: 10%;
+    }
+    .intro1 iframe{
+        width: 82vw;
+        height: 57vh;
+        margin-bottom: 0;
+    }
+    .intro2,.intro3{
+        padding: 0 7%;
+    }
+    .para9{
+        margin: 2% 8%;
+        padding-bottom: 12%;
+    }
+    .dream2{
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+        row-gap: 8%;
+    }
+    .para10{
+        grid-template-columns: 1fr;
+        row-gap: 3%;
+        margin: 0% 8%;
+        padding-bottom: 12%;
+    }
+    .featured,.salary{
+        flex-direction: column;
+    }
+    .user3,.user5{
+        padding: 0 5%;
+        padding-bottom: 4%;
+    }
+    .user3 h1,.user5 h1{
+        font-size: 23px;
+    }
+    .user3 div,.user5 div{
+        font-size: 15px;
+    }
+    .talent7{
+        margin-top: -4%;
+    }
+    .user2 img,.user4 img{
+        width: 300px;
+        height: 300px;
+        margin: -10% 0;
+        padding-left: 25%;
+    }
+    .para11{
+        margin: 6% 8%;
+        padding-bottom: 12%;
+    }
+    .box1{
+        grid-template-columns: 1fr 1fr;
+        column-gap:4%;
+        padding: 4% 0;
+    }
+    .blog2 img{
+        box-sizing: border-box;
+        width: 40vw;
+        height: 27vh;
+    }
+    .blog4{
+        font-size: 23px;
+    }
+    .blog3 h2{
+        font-size: 20px;
+    }
+    .blog2 .talent7 button{
+        margin-top: 5%;
+    }
+    .blog3 div{
+        font-size: 15px;
+        line-height: 23px;
+        font-family: 'Vazirmatn', sans-serif;
+    }
+    .para12{
+        margin: 0 8%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .talent8 i{
+        padding: 0;
+    }
+    .para13,.para14{
+        margin:0 8%;
+    }
+    .para13{
+        display: block;
+        font-size: 1px;
+    }
+}
+/* ---------Media queries 991px end------------------*/
+/* ---------Media queries 881px start------------------*/
+@media screen and (max-width: 881px) {
+    .para2{
+        grid-template-columns: 4fr 5fr;
+    }
+    .user2 img, .user4 img{
+        width: 235px;
+        height: 235px;
+    } 
+    .para3{
+        padding-bottom: 15%;
+    }
+    .para12{
+        padding-top:4%;
+    }
+}
+/* ---------Media queries 881px end------------------*/
+/* --------Media queries 766px start------------------*/
+
+@media screen and (max-width: 766px) { 
+    .img2{
+        padding-top: 25%;
+    }
+    .para2{
+        display: block;
+        padding: 3% 2%;
+    }
+    .remaining{
+        flex-direction: column;
+    }
+    .di3 .button1{
+        margin-left: -1%;
+        align-items: center;
+        justify-content: center;
+    }
+    .di2,.di3{
+        align-self: flex-start;
+    }
+    .para2 input{
+        width: 74vw;
+        height: 42px;
+        border-radius:3px;
+    }
+    .para2 button{
+        height: 42px;
+        width: 75vw;
+        padding: 0;
+        border-radius: 3px;
+    }
+    .division2{
+        padding-bottom: 2%;
+    }
+    .para2 ::placeholder{
+        font-size: 15px;
+    }
+    .sent1,.sent2{
+        float: none;
+        text-align: center;
+    }
+    .para5{
+        border-bottom: none;
+        padding-right: 5%;
+        padding-left: 7%;
+    }
+    .para5 img{
+        padding: 0 35px;
+        width: 15vw;
+        height: 8vh;
+    }
+    .got1 img{
+        height: 80vh;
+        width: 80vw;
+    }
+    .para9{
+        padding-bottom: 20%;
+    }
+    .user2,.user4{
+        padding:9% 8%;
+    }
+    .user2 img, .user4 img{
+        width: 250px;
+        height: 250px;
+    } 
+    .dream2{
+        grid-template-columns: 1fr;
+        row-gap: 3%;
+    }
+    .para11{
+        padding-bottom:35% ;
+    }
+    .box1{
+        grid-template-columns: 1fr;
+        grid-auto-rows:1fr;
+    }
+    .blog2 img{
+        width: 84vw;
+        height:57vh;
+    }
+    .blog2 .talent7 .button1{
+        padding: 2%;
+    }
+    .para13,.foot2,.cand1{
+        display: block;
+    }
+    .para13 p{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .last1,.last2{
+        float: none;
+    }
+    .para14{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+}
+/* --------Media queries 766px end------------------*/
+/* --------Media queries 586px start-------------- */
+@media screen and (max-width: 586px) {
+    .para11{
+        padding:0%;
+        padding-bottom: 30%;
+        font-size: 14px;
+    }
+    .box1 img{
+        width:82vw;
+        height:50vh;
+    }   
+    .user2 img, .user4 img{
+        width: 200px;
+        height: 200px;
+    }
+    .para2 input{
+        width: 69vw;
+        margin-bottom: 2%;
+    }
+    .para2 button{
+        width: 70.5vw;
+        padding: 0;
+    } 
+    .intro1{
+        padding-top: 6%;
+    } 
+    .para9{
+        padding-bottom: 25%;
+    }   
+    .para10{
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .para14{
+        font-size: 13px;
+    }    
+}
+/* --------Media queries 586px end-------------- */
+/* --------Media queries 478px start-------------- */
+@media screen and (max-width: 478px) {
+    .para5 img{
+        padding: 0 30px;
+        width: 20vw;
+        height: 12vh;
+    }
+    .navlist{
+        padding: 0 15%;
+    }
+    .text2{
+        font-size: 28px;
+    }
+    .division1{
+        display: block;
+    }    
+    .division button{
+        width: 81vw;
+    }
+    .div1,.talent7,.blog4{
+        padding-bottom: 5%;
+    }
+    .para2 input{
+        padding: 2% 0;
+        width: 70vw;
+    }
+    .para2 button{
+        padding: 2% 0;
+    }
+    .team1{
+        font-size: 29px;
+        padding-right: 20%;
+    }
+    .team2,.sent3,.blog3 h2{
+        font-size: 16px;
+    }
+    .para3{
+        font-size: 14px;
+        color: rgb(47, 45, 45);
+    }
+    .number1{
+        font-size:32px;
+    }
+    .got2{
+        padding: 0;
+        padding-bottom: 15%;
+    }
+    .need2,.intor3,.intro2{
+        padding: 0;
+    }
+    .got1 img,.need1 img{
+        width: 80vw ;
+        height: 58vh;
+    }
+    .got2 h1,.need2 h1,.intro2 h1,.dream1 h1{
+        font-size: 24px;
+    }
+    .talent1 div,.talent4 div,.talent6 div,.talent5,.dream2 p,.user1 p,.user3 div,.user5 div,.blog3 div,.para12 span,.drop-down{
+        font-size: 14px;
+    }
+    .got3,.need3,.intro3{
+        display: block;
+    }
+    .got3 button,.need3 button,.intro3 button,.talent7 button{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .talent2{
+        padding:0;
+        padding-bottom: 5%;
+    }
+    .intro1 iframe{
+        width: 80vw;
+        height: 28vh;
+    }
+    .user1{
+        padding: 5%;
+        padding-right: 0%;
+    }
+    .user2 img,.user4 img{
+        width: 60vw;
+        height: 42vh;
+        padding-left:0px;
+    }
+    .user3 h1,.user5 h1{
+        font-size: 20px;
+    }
+    .blog1 button{
+        float: none;
+    }
+    .blog1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box1{
+        margin-left: -5%;
+    }
+    .para11{
+        padding-bottom: 50%;
+    }
+    .para11 img{
+        width: 86vw;
+        height: 42vh;
+    }
+    .para12{
+        display: block;
+    }
+    .drop-down a{
+        width: 75.5vw;
+    }
+    .talent8 button{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+    .talent8 a{
+        text-decoration: none;
+    }
+    .drop-down a{
+        padding: 10px;
+    }
+    .cand1 p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+/* --------Media queries 478px end-------------- */
+/* --------Media queries 426px start-------------- */
+@media screen and (max-width:426px) {
+    .img2{
+        padding-top: 30%;
+    }
+    .division button{
+        padding: 3%;
+    }
+    .para2 input{
+        box-sizing: border-box;
+        padding-left: 4%;
+    }
+}
+/* --------Media queries 426px end-------------- */
+/* --------Media queries 376px start-------------- */
+@media screen and (max-width:376px) {
+    .img2{
+        padding-top: 35%;
+    }
+    .team1{
+        padding-right: 10%;
+    }
+    .division2{
+        padding-bottom: 4%;
+    }
+    .para3{
+        margin: 0;
+    }
+}
+/* --------Media queries 376px end-------------- */
+/* --------Media queries 321px start-------------- */
+@media screen and (max-width:321px) {
+    .text2{
+        font-size: 24px;
+    } 
+    .team1{
+        font-size: 28px;
+        padding-right: 0;
+    } 
+    .para9{
+        padding-bottom: 38%;
+    }
+    .para10{
+        padding-top: 15%;
+    }
+    .user2 img,.user4 img{
+        width: 174px;
+        height: 174px;
+        padding-left: 5%;
+    }
+    .blog2 img{
+        width: 84vw;
+        height: 25vh;
+    }
+}
+/* --------Media queries 321px end-------------- */ 
+/* --------Media queries 281px start-------------- */
+@media screen and (max-width:281px) {
+    .li1 .text2{
+        font-size: 21px;
+    }
+}
+/* --------Media queries 281px end-------------- */
